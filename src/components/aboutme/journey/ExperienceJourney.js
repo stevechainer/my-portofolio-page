@@ -34,6 +34,28 @@ function ExperienceJourney() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
+          date="2023 - Continuing"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Study World
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">
+            Branch Manager & Student Counsellor
+          </h6>
+          <p>• Provide Education Counselling to students and guardians for study abroad.</p>
+          <p>• Providing information about Universities/Colleges, Course/Fees, Admissions, Visa procedures etc.</p>
+          <p>• Effective follow-ups with the prospective students/guardians.</p>
+          <p>• Provide daily, Weekly, monthly, and yearly reporting about all operational activities.</p>
+          <p>• Processing student visa applications based on entry requirements and admissions procedures and 
+            enhance their chances of success in interviews by developing their skills.</p>
+          <p>• Preparing applications for admission into different foreign universities.</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date="2021 - 2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
